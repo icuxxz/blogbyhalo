@@ -147,6 +147,9 @@ dependencies {
     implementation "net.sf.image4j:image4j:$image4jVersion"
     implementation "org.flywaydb:flyway-core:$flywayVersion"
     implementation "com.google.zxing:core:$zxingVersion"
+    // https://mvnrepository.com/artifact/com.alibaba/druid
+    implementation 'com.alibaba:druid:1.2.8'
+
 
     implementation "org.iq80.leveldb:leveldb:$levelDbVersion"
     runtimeOnly "com.h2database:h2:$h2Version"
